@@ -27,4 +27,22 @@
   
   li {
     list-style-type: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
   }
+
+  li:hover {
+    transition: 0.2s;
+    border-bottom: 2px solid rgb(255, 205, 205);
+  }
+
+
+  a {
+    text-decoration: none;
+    color: inherit
+  }
+
+
+  a:focus {
+    border-bottom: 2px solid red;
+  }
+
