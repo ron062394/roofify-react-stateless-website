@@ -1,0 +1,30 @@
+/* NavBar */
+.logo {
+    height: 5rem;
+  }
+  
+  header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    border-bottom: 1px solid rgb(227, 227, 227);
+    width: 70%;
+    margin: 1rem auto;
+    padding: 2rem;
+  }
+  
+  .logo {
+    font-weight: bolder;
+    font-size: 2rem;
+  
+  }
+  
+  ul {
+    display: flex;
+    gap: 3rem;
+  }
+  
+  li {
+    list-style-type: none;
+  }

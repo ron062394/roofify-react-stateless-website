@@ -12,35 +12,29 @@ code {
     monospace;
 }
 
-
-/* NavBar */
-header {
-  display: flex;
-  justify-content: space-between; 
-  border-bottom: 1px solid rgb(227, 227, 227);
-}
-
-.logo {
-  font-weight: bolder;
-  font-size: 2rem;
-
-}
-
-ul {
-  display: flex;
-  gap: 3rem;
-}
-
-li {
-  list-style-type: none;
-}
-
-
 /* Home */
+.hero-banner {
+  height: 800px;
+  width: 100%;
+  background-image: url('https://metalexponents.com/wp-content/uploads/2021/02/5-Types-of-Metal-Roofing.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+
+
 .hero-title {
   font-size: 6rem;
 }
 
 .home-section {
-  display: flex;
+
+}
+
+
+.footer-section {
+  position: fixed;
+  bottom: 0;
 }
