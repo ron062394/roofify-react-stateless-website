@@ -6,17 +6,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    top: 0px;
-    z-index: -1;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-
 .hero-title {
-    font-size: 6rem;
+    font-size: 6rem; /* Adjust font size as needed */
 }
 
 .info-cards {
@@ -25,14 +22,44 @@
     width: 70%;
 }
 
-
 .home-about-us {
     display: flex;
-    margin: 10%;
-    background-color: azure;
+    margin: 5%;
+}
+
+.tile-roof {
+    height: 50vh;
+}
+
+.home-services {
+    display: flex;
+    justify-content: space-around;
+    margin:  5%;
+    color: aliceblue;
+    background-color: #191928;
+}
+.our-services-title {
+    font-weight:bolder;
+    font-size: 4rem;
+    width: 20vw;
 }
 
 
-.tile-roof {
- height: 50vh;
+.card-services {
+    height: 25vh;
+    width: 15vw;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+}
+
+.services-icon {
+    height:4rem;
+}
+
+.project-section {
+    background-color: aliceblue;
+    margin: 5%;
+    padding: 5%;
+    display: flex;
 }

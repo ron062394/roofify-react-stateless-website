@@ -1,9 +1,15 @@
-/* NavBar */
+
+
 .logo {
     height: 5rem;
   }
   
-  header {
+header{
+  display: flex;
+  justify-content: center;
+}
+
+  .header-section {
     background-color: #ffffff;
     display: flex;
     justify-content: space-between; 
@@ -12,6 +18,9 @@
     width: 70%;
     margin: 1rem auto;
     padding: 2rem;
+    position: fixed;
+    top: 0;
+    z-index: 1;
   }
   
   .logo {

@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(204, 204, 204);
+  background-color: #191928;
 }
 
 code {
@@ -16,8 +16,3 @@ code {
 
 
 
-
-.footer-section {
-  position: fixed;
-  bottom: 0;
-}
