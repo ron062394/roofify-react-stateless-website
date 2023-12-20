@@ -5,7 +5,7 @@
     background-image: url('https://metalexponents.com/wp-content/uploads/2021/02/5-Types-of-Metal-Roofing.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
+    position: relative;
     top: 0px;
     z-index: -1;
     display: flex;
@@ -16,7 +16,7 @@
 
 
 .hero-title {
-    font-size: rem;
+    font-size: 6rem;
 }
 
 .info-cards {
@@ -27,5 +27,12 @@
 
 
 .home-about-us {
-    position: relative;
+    display: flex;
+    margin: 10%;
+    background-color: azure;
+}
+
+
+.tile-roof {
+ height: 50vh;
 }

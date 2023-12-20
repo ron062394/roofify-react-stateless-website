@@ -5,7 +5,6 @@ function Home() {
       <main className="home-section">
         <section className="hero-banner">
             <h1 className="hero-title">Discover the Perfect Roofing</h1>
-            <p>Learn more</p>
             <div className='info-cards'>
               <span>
                 <h3>Openning hours:</h3>
@@ -21,8 +20,19 @@ function Home() {
               </span>
             </div>
         </section>
-        <section className='home-about-us'>
-          another content
+        <section className='home-services'>
+          <span>
+            <h2>Our Roofing Solutions</h2>
+            <p>Expert Roofing Services Tailored to Your Needs</p>
+          </span>
+          <span>
+            <h2>Our Roofing Solutions</h2>
+            <p>Expert Roofing Services Tailored to Your Needs</p>
+          </span>
+          <span>
+            <h2>Our Roofing Solutions</h2>
+            <p>Expert Roofing Services Tailored to Your Needs</p>
+          </span>
         </section>
       </main>
     );
