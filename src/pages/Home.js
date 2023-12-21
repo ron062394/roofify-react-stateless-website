@@ -42,10 +42,11 @@ function Home() {
           </div>
         </section>
       <section className='project-section'>
-        <img src="https://res.cloudinary.com/devex/image/fetch/c_scale,f_auto,q_auto,w_720/https://lh3.googleusercontent.com/nLOn_99rh8piQprZEboC3bpe7yj80FRwoBLGtoxLdz6YuxKobErY3_N8xcb4khSaakjO70uCjj1T2gVxp8NvCxyC3U0u5mtskoCEjcIJE8inm_RSaRIEYwo8kDeBzuIoeTmqG9_1" alt="" />
-        <h2>Lorem Ipsilum</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos ipsum corrupti repudiandae voluptatem voluptates ea possimus iure, quis neque illo a reiciendis, rem quibusdam recusandae laboriosam dolorem? Distinctio laboriosam deleniti, aliquid voluptatum sint, quo dolores aperiam, quidem sit magnam doloremque repellendus. Delectus magnam deserunt nulla animi, veniam nam alias ipsum.</p>
-
+        <div  className='project-container'>
+          <img src="https://res.cloudinary.com/devex/image/fetch/c_scale,f_auto,q_auto,w_720/https://lh3.googleusercontent.com/nLOn_99rh8piQprZEboC3bpe7yj80FRwoBLGtoxLdz6YuxKobErY3_N8xcb4khSaakjO70uCjj1T2gVxp8NvCxyC3U0u5mtskoCEjcIJE8inm_RSaRIEYwo8kDeBzuIoeTmqG9_1" alt="" />
+          <h2>Lorem Ipsilum</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos ipsum corrupti repudiandae voluptatem voluptates ea possimus iure, quis neque illo a reiciendis, rem quibusdam recusandae laboriosam dolorem? Distinctio laboriosam deleniti, aliquid voluptatum sint, quo dolores aperiam, quidem sit magnam doloremque repellendus. Delectus magnam deserunt nulla animi, veniam nam alias ipsum.</p>
+        </div>
       </section>
 
       </main>
