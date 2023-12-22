@@ -1,6 +1,8 @@
 /* Home */
+
+
 .hero-banner {
-    height: 800px;
+    height: 650px;
     width: 100%;
     background-image: url('https://metalexponents.com/wp-content/uploads/2021/02/5-Types-of-Metal-Roofing.jpg');
     background-repeat: no-repeat;
@@ -10,10 +12,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 
 .hero-title {
     font-size: 6rem; /* Adjust font size as needed */
+    color: rgb(0, 0, 0);
 }
 
 .info-cards {
@@ -57,8 +61,12 @@
     height:4rem;
 }
 
+.project-section {
+    background-color: azure;
+}
+
 .project-container {
-    background-color: aliceblue;
+    background-color: azure;
     margin: 5%;
     padding: 5%;
     display: flex;
