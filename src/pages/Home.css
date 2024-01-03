@@ -63,11 +63,23 @@
 
 .project-section {
     background-color: azure;
+
 }
 
 .project-container {
     background-color: azure;
     margin: 5%;
     padding: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1em;
+}
+
+.project-img {
+    height: 300px;
+}
+
+.order-container {
     display: flex;
+    justify-content: space-around;
 }
