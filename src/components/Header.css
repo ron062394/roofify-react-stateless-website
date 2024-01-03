@@ -1,57 +1,84 @@
-
-
 .logo {
-    height: 5rem;
-  }
-  
-header{
+  height: 5rem;
+}
+
+header {
   display: flex;
   justify-content: center;
 }
 
+.header-section {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(227, 227, 227);
+  width: 70%;
+  margin: 1rem auto;
+  padding: 2rem;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.logo {
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+ul {
+  display: flex;
+  gap: 3rem;
+  margin: 0; /* Remove default margin from ul */
+  padding: 0; /* Remove default padding from ul */
+}
+
+li {
+  list-style-type: none;
+  border-bottom: 2px solid transparent;
+}
+
+li:hover {
+  transition: 0.2s;
+  border-bottom: 2px solid rgb(255, 205, 205);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:focus {
+  border-bottom: 2px solid red;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
   .header-section {
-    background-color: #ffffff;
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    border-bottom: 1px solid rgb(227, 227, 227);
-    width: 70%;
-    margin: 1rem auto;
-    padding: 2rem;
-    position: fixed;
-    top: 0;
-    z-index: 1;
+      width: 90%; /* Adjust width for smaller screens */
   }
-  
-  .logo {
-    font-weight: bolder;
-    font-size: 2rem;
-  
-  }
-  
+
   ul {
-    display: flex;
-    gap: 3rem;
-  }
-  
-  li {
-    list-style-type: none;
-    border-bottom: 2px solid rgb(255, 255, 255);
-  }
-
-  li:hover {
-    transition: 0.2s;
-    border-bottom: 2px solid rgb(255, 205, 205);
+      display: none;
+      flex-direction: column;
+      padding: 0;
+      text-align: center;
+      width: 100%;
+      background-color: #ffffff;
+      position: absolute;
+      top: 70px; /* Adjust based on your header height */
+      left: 0;
+      z-index: 1;
   }
 
-
-  a {
-    text-decoration: none;
-    color: inherit
+  ul.active {
+      display: flex;
   }
-
-
-  a:focus {
-    border-bottom: 2px solid red;
+  .menu-icon {
+    display: block;
   }
-
+}
