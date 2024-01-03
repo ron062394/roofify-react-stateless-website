@@ -41,6 +41,7 @@ function Home() {
             <p>Comprehensive roof inspections to identify potential issues early. Our detailed assessments help maintain the integrity of your roof and prevent future problems.</p>
           </div>
         </section>
+        
       <section className='project-section'>
         <h2>Our Recent Project</h2>
         <div  className='project-container'>

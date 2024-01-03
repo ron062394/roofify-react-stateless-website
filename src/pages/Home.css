@@ -71,15 +71,48 @@
     margin: 5%;
     padding: 5%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 1em;
+    gap: 1rem;
+    align-items: center;
+
 }
 
 .project-img {
-    height: 300px;
+    width: 100%;
+    height: auto; 
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .order-container {
     display: flex;
     justify-content: space-around;
+}
+
+/*Phones(640px and up)*/
+@media (min-width: 40em) {
+    .project-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+/*Tablets(768px and up)*/
+@media (min-width: 48em) {
+    .project-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/*Laptop(1024px and up)*/
+@media (min-width: 64em) {
+    .project-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/*Desktop(1280px and up)*/
+@media (min-width: 80em) {
+    .project-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
