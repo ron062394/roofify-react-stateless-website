@@ -40,7 +40,7 @@
     color: aliceblue;
     background-color: #191928;
     gap: 1rem;
-    padding: 1% 5%;
+    padding: 1% 10%;
 }
 .our-services-title {
     font-weight:bolder;
@@ -50,8 +50,7 @@
 
 
 .card-services {
-    height: 25vh;
-    width: 15vw;
+
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     padding: 2rem;
@@ -68,12 +67,10 @@
 
 .project-container {
     background-color: azure;
-    margin: 5%;
-    padding: 5%;
+    padding: 10%;
     display: grid;
     gap: 1rem;
     align-items: center;
-
 }
 
 .project-img {
@@ -92,10 +89,14 @@
 @media (min-width: 40em) {
     .project-container {
         grid-template-columns: repeat(1, 1fr);
+        padding: 10%;
     }
     .home-services {
         grid-template-columns: repeat(1, 1fr);
+        padding: 1% 10%;
     }
+
+
 }
 
 
@@ -105,9 +106,11 @@
 @media (min-width: 48em) {
     .project-container {
         grid-template-columns: repeat(2, 1fr);
+        padding: 5%;
     }
     .home-services {
         grid-template-columns: repeat(2, 1fr);
+        padding: 1% 5%;
     }
 
 }
@@ -116,9 +119,11 @@
 @media (min-width: 64em) {
     .project-container {
         grid-template-columns: repeat(3, 1fr);
+        padding: 5%;
     }
     .home-services {
         grid-template-columns: repeat(2, 2fr);
+        padding: 1% 5%;
     }
 
 }
@@ -127,9 +132,11 @@
 @media (min-width: 80em) {
     .project-container {
         grid-template-columns: repeat(3, 1fr);
+        padding: 5%;
     }
 
     .home-services {
         grid-template-columns: repeat(4, 1fr);
+        padding: 1% 5%;
     }
 }

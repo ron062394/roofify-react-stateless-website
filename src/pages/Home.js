@@ -19,6 +19,7 @@ function Home() {
                 <p>roofify@webmail.com</p>  
               </span>
             </div>
+            
         </section>
         <section className='home-services'>
           <div className='our-services-container'>
