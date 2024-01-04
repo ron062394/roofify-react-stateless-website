@@ -21,9 +21,8 @@ function Home() {
             </div>
         </section>
         <section className='home-services'>
-        <div className='our-services-container'>
+          <div className='our-services-container'>
             <h2 className='our-services-title'>Our Roofing Solutions</h2>
-
           </div>
           <div className='card-services'>
             <img src="https://i.imgur.com/6GfprYv.png" alt="" className='services-icon'/>

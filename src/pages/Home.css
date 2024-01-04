@@ -36,11 +36,11 @@
 }
 
 .home-services {
-    display: flex;
-    justify-content: space-around;
-    margin:  5%;
+    display: grid;
     color: aliceblue;
     background-color: #191928;
+    gap: 1rem;
+    padding: 1% 5%;
 }
 .our-services-title {
     font-weight:bolder;
@@ -93,7 +93,12 @@
     .project-container {
         grid-template-columns: repeat(1, 1fr);
     }
+    .home-services {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
+
+
 
 
 /*Tablets(768px and up)*/
@@ -101,6 +106,10 @@
     .project-container {
         grid-template-columns: repeat(2, 1fr);
     }
+    .home-services {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
 
 /*Laptop(1024px and up)*/
@@ -108,11 +117,19 @@
     .project-container {
         grid-template-columns: repeat(3, 1fr);
     }
+    .home-services {
+        grid-template-columns: repeat(2, 2fr);
+    }
+
 }
 
 /*Desktop(1280px and up)*/
 @media (min-width: 80em) {
     .project-container {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .home-services {
+        grid-template-columns: repeat(4, 1fr);
     }
 }
