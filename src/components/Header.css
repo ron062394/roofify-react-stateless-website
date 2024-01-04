@@ -59,7 +59,8 @@ a:focus {
 /* Media query for responsiveness */
 @media (max-width: 768px) {
   .header-section {
-      width: 90%; /* Adjust width for smaller screens */
+      width: 100%;
+      position: relative;
   }
 
   ul {
