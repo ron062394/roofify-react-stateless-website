@@ -81,8 +81,9 @@
 }
 
 .order-container {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    gap: 1em;
+    padding: 5% 10%;
 }
 
 /*Phones(640px and up)*/
@@ -114,6 +115,12 @@
     .info-cards {
         display: flex;
     }
+    .order-container {
+        display: grid;
+        gap: 1em;
+        padding: 5% 5%;
+    }
+    
 }
 
 /*Laptop(1024px and up)*/
@@ -129,6 +136,11 @@
     .info-cards {
         display: flex;
     }
+    .order-container {
+        padding: 5% 5%;
+        grid-template-columns: repeat(3, 1fr) ;
+    }
+    
 }
 
 /*Desktop(1280px and up)*/
@@ -144,5 +156,9 @@
     }
     .info-cards {
         display: flex;
+    }
+    .order-container {
+        padding: 5% 5%;
+        grid-template-columns: repeat(3, 1fr) ;
     }
 }

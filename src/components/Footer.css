@@ -2,4 +2,15 @@ footer {
     display: flex;
     align-items: flex-end;
     color: aliceblue;
+    padding: 10%;   
+    justify-content: space-between;
 }
+
+/*Tablets(768px and up)*/
+@media (min-width: 48em) {
+    footer {
+        padding: 5%;
+    }
+    
+}
+
