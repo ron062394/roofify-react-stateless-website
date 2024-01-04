@@ -1,8 +1,16 @@
 .products-section {
+    color: aliceblue;
     background-color: #191928;
-    height: 200vh;
 }
 
-.fade-in {
-    opacity: 1;
+.featured-product-img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.product-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

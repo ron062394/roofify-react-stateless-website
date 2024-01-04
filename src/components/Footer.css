@@ -1,9 +1,10 @@
 footer {
     display: flex;
     align-items: flex-end;
-    color: aliceblue;
+    color: black;
     padding: 10%;   
     justify-content: space-between;
+    background-color: aliceblue;
 }
 
 /*Tablets(768px and up)*/
