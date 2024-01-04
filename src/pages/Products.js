@@ -7,7 +7,21 @@ function Products() {
         </div>
         <div className="product-container">
           <div className='product-card'>
-            <img src="https://i.imgur.com/KX1LDn5.png" alt="rib-roof-image" />
+            <img className='product-img' src="https://i.imgur.com/KX1LDn5.png" alt="rib-roof-image" />
+            <div>
+              <h3>Rib-Type</h3>  
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nam eius veniam dolorem libero! Odit, non consectetur. Reprehenderit quod recusandae, vel voluptates magni aperiam animi reiciendis corporis est unde libero, et assumenda officiis sit perspiciatis, fuga provident quis quasi iste harum? Totam non, earum dolor hic praesentium quod? Pariatur, dignissimos.</p>
+            </div>            
+          </div>
+          <div className='product-card'>
+            <img className='product-img' src="https://i.imgur.com/AqGwUvl.png" alt="rib-roof-image" />
+            <div>
+              <h3>Corrugated</h3>  
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nam eius veniam dolorem libero! Odit, non consectetur. Reprehenderit quod recusandae, vel voluptates magni aperiam animi reiciendis corporis est unde libero, et assumenda officiis sit perspiciatis, fuga provident quis quasi iste harum? Totam non, earum dolor hic praesentium quod? Pariatur, dignissimos.</p>
+            </div>            
+          </div>
+          <div className='product-card'>
+            <img className='product-img' src="https://i.imgur.com/KX1LDn5.png" alt="rib-roof-image" />
             <div>
               <h3>Rib Type</h3>  
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nam eius veniam dolorem libero! Odit, non consectetur. Reprehenderit quod recusandae, vel voluptates magni aperiam animi reiciendis corporis est unde libero, et assumenda officiis sit perspiciatis, fuga provident quis quasi iste harum? Totam non, earum dolor hic praesentium quod? Pariatur, dignissimos.</p>
