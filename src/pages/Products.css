@@ -37,6 +37,10 @@
     background-color:rgb(0, 0, 0);
     
 }
+.product-container .product-card:nth-child(6) {
+    background-color:rgb(33, 15, 23);
+    
+}
 
 
 
@@ -88,3 +92,12 @@
     opacity: 1; /* Make specs visible on hover */
   }
   
+
+.clad {
+    background-color: #000000;
+}
+
+.clad-img {
+    width: 70vw;
+    object-fit: cover;
+}

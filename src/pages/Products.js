@@ -62,15 +62,67 @@ function Products() {
               <h3>Available colors</h3>
               <p>Red, blue, green</p>
             </div>
-            <img className='product-img' src="https://i.imgur.com/AqGwUvl.png" alt="rib-roof-image" />
+            <img className='product-img' src="https://i.imgur.com/96wPGrW.png" alt="rib-roof-image" />
+            <div>
+              <h2>Tile-Span</h2>  
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nam eius veniam dolorem libero! Odit, non consectetur. Reprehenderit quod recusandae, vel voluptates magni aperiam animi reiciendis corporis est unde libero, et assumenda officiis sit perspiciatis, fuga provident quis quasi iste harum? Totam non, earum dolor hic praesentium quod? Pariatur, dignissimos.</p>
+            </div>            
+          </div>
+
+
+          <div className='product-card'>
+            <div className='product-specs'>
+              <img className='diameter' src="https://i.imgur.com/Yfbefkw.png" alt="diameter" />
+              <h3>Available colors</h3>
+              <p>Red, blue, green</p>
+            </div>
+            <img className='product-img' src="https://i.imgur.com/2riqGKc.png" alt="rib-roof-image" />
             <div>
               <h2>Tile-Span: Roman Style</h2>  
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nam eius veniam dolorem libero! Odit, non consectetur. Reprehenderit quod recusandae, vel voluptates magni aperiam animi reiciendis corporis est unde libero, et assumenda officiis sit perspiciatis, fuga provident quis quasi iste harum? Totam non, earum dolor hic praesentium quod? Pariatur, dignissimos.</p>
             </div>            
           </div>
-
-      
         </div>
+
+        <div className='product-card'>
+            <div className='product-specs'>
+              <img className='diameter' src="https://i.imgur.com/Yfbefkw.png" alt="diameter" />
+              <h3>Available colors</h3>
+              <p>Red, blue, green</p>
+            </div>
+            <img className='product-img' src="https://i.imgur.com/NjXGsbk.png" alt="rib-roof-image" />
+            <div>
+              <h2>Decking</h2>  
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nam eius veniam dolorem libero! Odit, non consectetur. Reprehenderit quod recusandae, vel voluptates magni aperiam animi reiciendis corporis est unde libero, et assumenda officiis sit perspiciatis, fuga provident quis quasi iste harum? Totam non, earum dolor hic praesentium quod? Pariatur, dignissimos.</p>
+            </div>            
+          </div>
+
+
+          <div className='product-card clad'>
+            <div className='product-specs'>
+              <img className='diameter' src="https://i.imgur.com/Yfbefkw.png" alt="diameter" />
+              <h3>Available colors</h3>
+              <p>Red, blue, green</p>
+            </div>
+            <div>
+              <h2>Cladding</h2>  
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nam eius veniam dolorem libero! Odit, non consectetur. Reprehenderit quod recusandae, vel voluptates magni aperiam animi reiciendis corporis est unde libero, et assumenda officiis sit perspiciatis, fuga provident quis quasi iste harum? Totam non, earum dolor hic praesentium quod? Pariatur, dignissimos.</p>
+            </div>            
+            <img className='product-img clad-img' src="https://i.imgur.com/bMQCdAv.png" alt="rib-roof-image" />
+
+          </div>
+          <div className='product-card'>
+            <div className='product-specs'>
+              <img className='diameter' src="https://i.imgur.com/Yfbefkw.png" alt="diameter" />
+              <h3>Available colors</h3>
+              <p>Red, blue, green</p>
+            </div>
+            <img className='product-img' src="https://i.imgur.com/72EIQu3.png" alt="rib-roof-image" />
+            <div>
+              <h2>Spandrel</h2>  
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nam eius veniam dolorem libero! Odit, non consectetur. Reprehenderit quod recusandae, vel voluptates magni aperiam animi reiciendis corporis est unde libero, et assumenda officiis sit perspiciatis, fuga provident quis quasi iste harum? Totam non, earum dolor hic praesentium quod? Pariatur, dignissimos.</p>
+            </div>            
+          </div>
       </section>
     );
   }

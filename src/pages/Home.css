@@ -1,6 +1,7 @@
 /* Home */
 
 
+
 .hero-banner {
     height: 650px;
     width: 100%;
@@ -59,6 +60,23 @@
 .services-icon {
     height:4rem;
 }
+
+.home-carousel .carousel, .control-dots {
+    display: flex;
+    justify-content: center;
+}
+  
+.control-dots {
+}
+
+
+.home-carousel img {
+    width: 100%; /* Adjust the width of the images */
+    height: auto; /* Maintain aspect ratio */
+    /* Add any other styling properties you need */
+  }
+
+
 
 .project-section {
     background-color: azure;
