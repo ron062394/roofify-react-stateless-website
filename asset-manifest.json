@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/roofify-react-stateless-website/static/css/main.1b1f29de.css",
-    "main.js": "/roofify-react-stateless-website/static/js/main.abe0b8d4.js",
+    "main.js": "/roofify-react-stateless-website/static/js/main.38c0fc23.js",
     "index.html": "/roofify-react-stateless-website/index.html",
     "main.1b1f29de.css.map": "/roofify-react-stateless-website/static/css/main.1b1f29de.css.map",
-    "main.abe0b8d4.js.map": "/roofify-react-stateless-website/static/js/main.abe0b8d4.js.map"
+    "main.38c0fc23.js.map": "/roofify-react-stateless-website/static/js/main.38c0fc23.js.map"
   },
   "entrypoints": [
     "static/css/main.1b1f29de.css",
-    "static/js/main.abe0b8d4.js"
+    "static/js/main.38c0fc23.js"
   ]
 }
