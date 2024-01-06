@@ -9,7 +9,7 @@ import About from './pages/About';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router  basename="/roofify-react-stateless-website">
         <Header />
         <Routes>
           {/* Use this route for the root URL */}
