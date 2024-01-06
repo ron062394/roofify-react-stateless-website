@@ -42,9 +42,6 @@
     
 }
 
-
-
-
 .product-img {
     width: 60%;
     height: auto;
@@ -95,9 +92,82 @@
 
 .clad {
     background-color: #000000;
+    padding-left: 10%;
 }
 
 .clad-img {
-    width: 70vw;
+    height: 70vh;
     object-fit: cover;
+}
+
+.order-now{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    height: 3rem;
+}
+
+.order-now:hover {
+    height: 4rem;
+}
+
+
+.ease {
+  overflow: hidden; /* Ensure the image stays within its container */
+}
+
+.ease img {
+  width: 100%; /* Ensure the image fills the container */
+  height: 100%; /* Ensure the image fills the container */
+  transition: transform 0.3s ease-in; /* Apply the transition effect */
+}
+
+.ease:hover img {
+  transform: scale(1.1); /* Scale the image slightly on hover */
+}
+
+
+.decking-title, .clad-title {
+  font-size: 3em;
+}
+
+.decking-description, .clad-description {
+  font-size: 1.5em;
+}
+
+.color-container {
+  display: flex;
+
+}
+
+.roof-color {
+  height: 1.3em;
+  width: 1.3em;
+  border-radius: 50%;
+  margin-right: 0.5em;
+}
+
+
+.blue-roof {
+  background-color: rgb(2, 6, 122);
+}
+
+.red-roof {
+  background-color: rgba(179, 2, 2, 0.956);
+}
+
+.green-roof {
+  background-color: rgb(4, 72, 2);
+}
+
+.beige-roof {
+  background-color: rgb(177, 248, 182);
+}
+.brown-roof {
+  background-color: rgb(84, 10, 10);
+}
+
+.white-roof {
+  background-color: rgb(248, 248, 248);
 }

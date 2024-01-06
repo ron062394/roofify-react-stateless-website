@@ -1,17 +1,34 @@
-footer {
+.footer-container {
     display: flex;
     align-items: flex-end;
-    color: black;
+
     padding: 10%;   
     justify-content: space-between;
-    background-color: aliceblue;
+
 }
 
 /*Tablets(768px and up)*/
 @media (min-width: 48em) {
-    footer {
+    .footer-container {
         padding: 5%;
     }
     
+}
+
+
+footer {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+    border-bottom: 1px solid #191928;
+}
+  
+
+.claim {
+    margin: 2vh auto;
 }
 

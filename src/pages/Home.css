@@ -65,18 +65,19 @@
     display: flex;
     justify-content: center;
 }
-  
-.control-dots {
+
+
+.slide.selected .carousel-img {
+    width: 80% !important;
+    height: 100%;
 }
 
-
-.home-carousel img {
-    width: 100%; /* Adjust the width of the images */
-    height: auto; /* Maintain aspect ratio */
-    /* Add any other styling properties you need */
-  }
-
-
+.slide.previous .carousel-img {
+    width: 80% !important;
+}
+.slide.next .carousel-img {
+    width: 80% !important;
+}
 
 .project-section {
     background-color: azure;

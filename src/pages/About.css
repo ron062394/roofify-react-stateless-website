@@ -1,0 +1,20 @@
+.about-section {
+
+    padding: 7%;
+    display: flex;
+}
+
+.builder-img {
+    height: 60vh;
+}
+
+
+.the-journey {
+    padding: 5%;
+}
+
+.about-us-img {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}

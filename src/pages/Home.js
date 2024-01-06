@@ -56,7 +56,7 @@ function Home() {
           <Carousel>
             {images.map((imageUrl, index) => (
               <div key={index}>
-                <img src={imageUrl} alt={`Slide ${index}`} />
+                <img className='carousel-img' src={imageUrl} alt={`Slide ${index}`} />
               </div>
             ))}
           </Carousel>
@@ -79,13 +79,13 @@ function Home() {
               <p>Expert installations tailored to your needs. We use high-quality materials and ensure precision in every project to provide durable and beautiful roofs.</p>
             </div>
             <div className='card-services'>
-              <img src="https://i.imgur.com/zTB5Ld9.png" alt="" className='services-icon'/>
+              <img src="https://i.imgur.com/Ve7l9P0.png" alt="" className='services-icon'/>
               <h3>Order</h3>
               <p>Expert Roofing Services Tailored to Your Needs</p>
             </div>
             <div className='card-services'>
-              <img src="https://i.imgur.com/zTB5Ld9.png" alt="" className='services-icon'/>
-              <h3>Pick-up / Continue</h3>
+              <img src="https://i.imgur.com/Wa42UeK.png" alt="" className='services-icon'/>
+              <h3>Pick-up / Deliver</h3>
               <p>Comprehensive roof inspections to identify potential issues early. Our detailed assessments help maintain the integrity of your roof and prevent future problems.</p>
             </div>
           </div>
