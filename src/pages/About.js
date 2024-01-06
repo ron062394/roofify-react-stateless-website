@@ -22,11 +22,6 @@ const About = () => {
           <p>Our vision at Roofify is to set the standard in the roofing industry as the epitome of reliability, innovation, and customer-centric service. We aim to revolutionize roofing practices by integrating cutting-edge technology, sustainable solutions, and expert craftsmanship. We envision a future where every homeowner has access to resilient roofs that not only protect their homes but also reflect our dedication to quality and integrity. Through our continuous commitment to excellence, we aspire to be the cornerstone of trust and reliability in the roofing landscape.</p>
         </div>
       </section>
-      <section className='offices'>
-        <h2>Our Offices</h2>
-        <h3>Main Office</h3>
-        <p>123 Main Street, City, State, Zip Code</p>
-      </section>
     </main>
 
   );

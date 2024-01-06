@@ -90,14 +90,28 @@
   }
   
 
-.clad {
+  .clad {
     background-color: #000000;
     padding-left: 10%;
+    height: 70vh;
+    width: 100%;
+}
+.clad-description-container {
+  width: 50%;
+}
+.clad-img-container {
+  height: 70vh;
+  width: 50%;
 }
 
 .clad-img {
     height: 70vh;
     object-fit: cover;
+    transition: height 0.3s ease; /* Adding a transition effect */
+}
+
+.clad-img:hover {
+    height: 100vh;
 }
 
 .order-now{
@@ -145,7 +159,8 @@
   height: 1.3em;
   width: 1.3em;
   border-radius: 50%;
-  margin-right: 0.5em;
+  margin: 0 0.2em;
+  border: 0.25px solid rgb(234, 234, 234);
 }
 
 
@@ -170,4 +185,16 @@
 
 .white-roof {
   background-color: rgb(248, 248, 248);
+}
+
+.terracotta-roof {
+  background-color: rgb(192, 91, 2);
+}
+
+.gray-roof {
+  background-color: rgb(41, 41, 41);
+}
+
+.thickness {
+  margin: 0.2em;
 }
