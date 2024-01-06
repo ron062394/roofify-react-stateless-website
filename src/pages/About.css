@@ -1,20 +1,41 @@
-.about-section {
-
-    padding: 7%;
-    display: flex;
+.tag-line {
+    font-size: 5rem;
+    margin: 10% 20% 4% 20% ;
+    text-align: center;
+    color: azure;
 }
 
-.builder-img {
-    height: 60vh;
+.story-img {
+    width: 40%;
+    margin: 5%;
 }
-
 
 .the-journey {
-    padding: 5%;
+    width: 40%;
+    margin: 5%;
 }
 
-.about-us-img {
+.about-section {
+    display: flex;
+    background-color: azure;
     width: 100%;
-    position: absolute;
-    z-index: -1;
 }
+
+.job-openings-section {
+    padding: 5%;
+    color: azure;
+}
+
+.job-openings-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
+
+
+.job-item {
+    background-color: aliceblue;
+    padding: 2em;
+    color: black;
+}
+

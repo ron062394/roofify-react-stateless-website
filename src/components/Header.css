@@ -30,14 +30,14 @@ header {
   font-size: 2rem;
 }
 
-ul {
+header ul {
   display: flex;
   gap: 3rem;
   margin: 0; /* Remove default margin from ul */
   padding: 0; /* Remove default padding from ul */
 }
 
-li {
+header li {
   list-style-type: none;
   border-bottom: 2px solid transparent;
 }

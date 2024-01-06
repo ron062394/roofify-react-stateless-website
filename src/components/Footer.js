@@ -15,7 +15,7 @@ function Footer() {
           <div>
             <h4>Address:</h4>
             <div>123 Main Street, City, State, Zip Code</div>
-            <div>© 2023 Your Roofing Company. All Rights Reserved.</div>
+
           </div>
           <div>
             <h4>Follow Us:</h4>
