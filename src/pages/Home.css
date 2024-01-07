@@ -1,11 +1,7 @@
-/* Home */
-
-
-
 .hero-banner {
-    height: 650px;
+    height: 60vh;
     width: 100%;
-    background-image: url('https://metalexponents.com/wp-content/uploads/2021/02/5-Types-of-Metal-Roofing.jpg');
+    background-image: url('https://c0.wallpaperflare.com/preview/518/694/455/roof-roofing-tiles-tile-housetop.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -13,18 +9,41 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+}
+
+.black-shade {
+    background-color: #000000;
+    position: absolute;
+    height: 60vh;
+    width: 100%;
+    opacity: 95%;
 }
 
 .hero-title {
-    font-size: 6rem; /* Adjust font size as needed */
-    color: rgb(0, 0, 0);
+    font-size: 5rem; /* Adjust font size as needed */
+    color: rgb(255, 255, 255);
+    z-index: 1;
 }
 
+
+.info-cards span p:first-of-type {
+    opacity: 50%;
+}
+
+
+.info-cards span p:nth-of-type(2) {
+    font-weight:500;
+}
+  
+  
+
 .info-cards {
-    display: none;
     justify-content: space-around;
     width: 70%;
+    color: aliceblue;
+    z-index: 1;
+    bottom: 0;
+    position: absolute;
 }
 
 .home-about-us {
@@ -38,23 +57,41 @@
 
 .home-services {
     display: grid;
-    color: aliceblue;
-    background-color: #191928;
-    gap: 1rem;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    grid-template-columns: repeat(4, 1fr);
     padding: 1% 10%;
 }
+
+.home-services .card-services:nth-child(1) {
+    background-color:rgb(0, 38, 70);
+}
+
+.home-services .card-services:nth-child(2) {
+    background-color:rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+.home-services .card-services:nth-child(3) {
+    background-color:rgb(62, 150, 221);
+}
+
+.home-services .card-services:nth-child(4) {
+    background-color:rgb(31, 31, 31);
+}
+
+
 .our-services-title {
     font-weight:bolder;
-    font-size: 4rem;
+    font-size: 2.5rem;
     width: 20vw;
 }
 
 
 .card-services {
-
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    padding: 2rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(31, 31, 31);
+    padding: 3rem;
 }
 
 .services-icon {
@@ -113,7 +150,6 @@
     }
     .home-services {
         grid-template-columns: repeat(1, 1fr);
-        padding: 1% 10%;
     }
     .info-cards {
         display: none;
@@ -129,7 +165,6 @@
     }
     .home-services {
         grid-template-columns: repeat(2, 1fr);
-        padding: 1% 5%;
     }
     .info-cards {
         display: flex;
@@ -150,7 +185,6 @@
     }
     .home-services {
         grid-template-columns: repeat(2, 2fr);
-        padding: 1% 5%;
     }
     .info-cards {
         display: flex;
@@ -171,7 +205,6 @@
 
     .home-services {
         grid-template-columns: repeat(4, 1fr);
-        padding: 1% 5%;
     }
     .info-cards {
         display: flex;

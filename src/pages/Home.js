@@ -14,41 +14,43 @@ function Home() {
     return (
       <main className="home-section">
         <section className="hero-banner">
-            <h1 className="hero-title">Discover the Perfect Roofing</h1>
-            <div className='info-cards'>
-              <span>
-                <h3>Openning hours:</h3>
-                <p>08:00am - 5:00pm</p>
-              </span>
-              <span>
-                <h3>Main Office:</h3>
-                <p>1658, Lorem Ipsilum, 3100</p>
-              </span>
-              <span>
-                <h3>Customer service:</h3>
-                <p>roofify@webmail.com</p>  
-              </span>
-            </div>
-            
+          <div className='black-shade'>
+          </div>
+          <h1 className="hero-title">Discover the Perfect Roofing</h1>
+
+          <div className='info-cards'>
+            <span>
+              <p>Openning hours:</p>
+              <p>08:00am - 5:00pm</p>
+            </span>
+            <span>
+              <p>Main Office:</p>
+              <p>1658, Lorem Ipsilum, 3100</p>
+            </span>
+            <span>
+              <p>Customer service:</p>
+              <p>roofify@webmail.com</p>  
+            </span>
+          </div>
+
         </section>
+
+
         <section className='home-services'>
-          <div className='our-services-container'>
+          <div className='card-services our-services-container'>
             <h2 className='our-services-title'>Our Roofing Solutions</h2>
           </div>
           <div className='card-services'>
-            <img src="https://i.imgur.com/6GfprYv.png" alt="" className='services-icon'/>
             <h3>Professional Installations</h3>
-            <p>Expert installations tailored to your needs. We use high-quality materials and ensure precision in every project to provide durable and beautiful roofs.</p>
+            <p>Expert installations tailored to your needs.</p>
           </div>
           <div className='card-services'>
-            <img src="https://i.imgur.com/WHGsOYQ.png" alt="" className='services-icon'/>
             <h3>Swift Repairs</h3>
             <p>Expert Roofing Services Tailored to Your Needs</p>
           </div>
           <div className='card-services'>
-            <img src="https://i.imgur.com/zTB5Ld9.png" alt="" className='services-icon'/>
             <h3>Roof Inspections</h3>
-            <p>Comprehensive roof inspections to identify potential issues early. Our detailed assessments help maintain the integrity of your roof and prevent future problems.</p>
+            <p>Comprehensive roof inspections to identify potential issues early.</p>
           </div>
         </section>
 
