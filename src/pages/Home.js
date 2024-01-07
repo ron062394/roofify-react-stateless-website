@@ -17,7 +17,6 @@ function Home() {
           <div className='black-shade'>
           </div>
           <h1 className="hero-title">Discover the Perfect Roofing</h1>
-
           <div className='info-cards'>
             <span>
               <p>Openning hours:</p>
@@ -45,11 +44,11 @@ function Home() {
             <p>Expert installations tailored to your needs.</p>
           </div>
           <div className='card-services'>
-            <h3>Swift Repairs</h3>
+            <h3>Swift Roofing Repairs</h3>
             <p>Expert Roofing Services Tailored to Your Needs</p>
           </div>
           <div className='card-services'>
-            <h3>Roof Inspections</h3>
+            <h3>Roofing Inspections</h3>
             <p>Comprehensive roof inspections to identify potential issues early.</p>
           </div>
         </section>
@@ -68,8 +67,9 @@ function Home() {
           <h2>Our Recent Project</h2>
           <div  className='project-container'>
             <img className='project-img' src="https://res.cloudinary.com/devex/image/fetch/c_scale,f_auto,q_auto,w_720/https://lh3.googleusercontent.com/nLOn_99rh8piQprZEboC3bpe7yj80FRwoBLGtoxLdz6YuxKobErY3_N8xcb4khSaakjO70uCjj1T2gVxp8NvCxyC3U0u5mtskoCEjcIJE8inm_RSaRIEYwo8kDeBzuIoeTmqG9_1" alt="" />
-            <img className='project-img' src="https://res.cloudinary.com/devex/image/fetch/c_scale,f_auto,q_auto,w_720/https://lh3.googleusercontent.com/nLOn_99rh8piQprZEboC3bpe7yj80FRwoBLGtoxLdz6YuxKobErY3_N8xcb4khSaakjO70uCjj1T2gVxp8NvCxyC3U0u5mtskoCEjcIJE8inm_RSaRIEYwo8kDeBzuIoeTmqG9_1" alt="" />
-            <img className='project-img' src="https://res.cloudinary.com/devex/image/fetch/c_scale,f_auto,q_auto,w_720/https://lh3.googleusercontent.com/nLOn_99rh8piQprZEboC3bpe7yj80FRwoBLGtoxLdz6YuxKobErY3_N8xcb4khSaakjO70uCjj1T2gVxp8NvCxyC3U0u5mtskoCEjcIJE8inm_RSaRIEYwo8kDeBzuIoeTmqG9_1" alt="" />
+            <img className='project-img' src="https://www.mydamus.com/wp-content/uploads/2023/04/File_004.jpg" alt="" />
+            <img className='project-img' src="https://readmetalroofing.com/wp-content/uploads/2023/01/Journey1.jpg" alt="" />
+            <img className='project-img' src="https://readmetalroofing.com/wp-content/uploads/2023/01/Journey1.jpg" alt="" />
           </div>
         </section>
 

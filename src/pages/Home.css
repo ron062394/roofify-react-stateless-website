@@ -65,6 +65,7 @@
 
 .home-services .card-services:nth-child(1) {
     background-color:rgb(0, 38, 70);
+    
 }
 
 .home-services .card-services:nth-child(2) {
@@ -117,23 +118,17 @@
 }
 
 .project-section {
-    background-color: azure;
+    background-color: rgb(220, 220, 220);
+    color: rgb(63, 63, 63);
+    padding: 2% 10%;
 
 }
 
-.project-container {
-    background-color: azure;
-    padding: 10%;
-    display: grid;
-    gap: 1rem;
-    align-items: center;
-}
 
 .project-img {
-    width: 100%;
-    height: auto; 
-    max-width: 100%;
-    max-height: 100%;
+    width: 15em;
+    height: 15em; 
+    object-fit: cover;
 }
 
 .order-container {
@@ -144,10 +139,6 @@
 
 /*Phones(640px and up)*/
 @media (min-width: 40em) {
-    .project-container {
-        grid-template-columns: repeat(1, 1fr);
-        padding: 10%;
-    }
     .home-services {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -159,10 +150,6 @@
 
 /*Tablets(768px and up)*/
 @media (min-width: 48em) {
-    .project-container {
-        grid-template-columns: repeat(2, 1fr);
-        padding: 5%;
-    }
     .home-services {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -179,10 +166,6 @@
 
 /*Laptop(1024px and up)*/
 @media (min-width: 64em) {
-    .project-container {
-        grid-template-columns: repeat(3, 1fr);
-        padding: 5%;
-    }
     .home-services {
         grid-template-columns: repeat(2, 2fr);
     }
@@ -198,11 +181,6 @@
 
 /*Desktop(1280px and up)*/
 @media (min-width: 80em) {
-    .project-container {
-        grid-template-columns: repeat(3, 1fr);
-        padding: 5%;
-    }
-
     .home-services {
         grid-template-columns: repeat(4, 1fr);
     }

@@ -29,6 +29,9 @@ footer {
   
 
 .claim {
-    margin: 2vh auto;
+    padding: 2vh;
+    background-color: #191928;
+    color: aliceblue;
+    text-align: center;
 }
 
