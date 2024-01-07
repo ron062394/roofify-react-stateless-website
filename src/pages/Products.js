@@ -8,6 +8,32 @@ function Products() {
       <section className="products-section">
         <img className="featured-product-img" src="https://i.imgur.com/xM9qKxk.jpg" alt="featured-roof" />
         <div className="product-container">
+          
+        <div className='product-card'>
+            <div className='product-specs'>
+              <img className='diameter' src="https://i.imgur.com/Yfbefkw.png" alt="diameter" />
+              <h3 className='thickness'>Thickness Available:</h3>
+              <p className='thickness'>0.5mm, 0.6mm, 0.7mm</p>
+              <h3>Available colors</h3>
+              <div className='color-container'>
+                <div className='roof-color blue-roof'></div>
+                <div className='roof-color red-roof'></div>
+                <div className='roof-color green-roof'></div>
+                <div className='roof-color beige-roof'></div>
+                <div className='roof-color brown-roof'></div>
+                <div className='roof-color white-roof'></div>
+                <div className='roof-color terracotta-roof'></div>
+                <div className='roof-color gray-roof'></div>
+              </div>
+            </div>
+
+            <img className='product-img' src="https://i.imgur.com/LLkXY0A.png" alt="rib-roof-image" />
+            <div>
+              <h2>Multi-Rib</h2>  
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nam eius veniam dolorem libero! Odit, non consectetur. Reprehenderit quod recusandae, vel voluptates magni aperiam animi reiciendis corporis est unde libero, et assumenda officiis sit perspiciatis, fuga provident quis quasi iste harum? Totam non, earum dolor hic praesentium quod? Pariatur, dignissimos.</p>
+            </div>            
+          </div>
+          
           <div className='product-card'>
             <div className='product-specs'>
               <img className='diameter' src="https://i.imgur.com/Yfbefkw.png" alt="diameter" />
@@ -32,30 +58,6 @@ function Products() {
           </div>            
         </div>
 
-          <div className='product-card'>
-            <div className='product-specs'>
-              <img className='diameter' src="https://i.imgur.com/Yfbefkw.png" alt="diameter" />
-              <h3 className='thickness'>Thickness Available:</h3>
-              <p className='thickness'>0.5mm, 0.6mm, 0.7mm</p>
-              <h3>Available colors</h3>
-              <div className='color-container'>
-                <div className='roof-color blue-roof'></div>
-                <div className='roof-color red-roof'></div>
-                <div className='roof-color green-roof'></div>
-                <div className='roof-color beige-roof'></div>
-                <div className='roof-color brown-roof'></div>
-                <div className='roof-color white-roof'></div>
-                <div className='roof-color terracotta-roof'></div>
-                <div className='roof-color gray-roof'></div>
-              </div>
-            </div>
-
-            <img className='product-img' src="https://i.imgur.com/LLkXY0A.png" alt="rib-roof-image" />
-            <div>
-              <h2>Multi-Rib</h2>  
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nam eius veniam dolorem libero! Odit, non consectetur. Reprehenderit quod recusandae, vel voluptates magni aperiam animi reiciendis corporis est unde libero, et assumenda officiis sit perspiciatis, fuga provident quis quasi iste harum? Totam non, earum dolor hic praesentium quod? Pariatur, dignissimos.</p>
-            </div>            
-          </div>
 
           <div className='product-card'>
           <div className='product-specs'>
