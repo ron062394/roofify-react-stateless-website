@@ -133,11 +133,20 @@
 .project-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 0.25em;
+    gap: 0.3em;
     width: 60%;
 }
 
+.project-description > h2 {
+    font-size: 3.9em;
+}
 
+
+.order-card {
+    color:black;
+    padding: 10%;
+    background-color: aliceblue;
+}
 
 .project-img {
     width: 100%;
@@ -147,9 +156,10 @@
 
 .order-container {
     display: grid;
-    gap: 1em;
-    padding: 5% 10%;
-    background-color: rgb(0, 38, 70);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    padding: 5% 15%;
+    background-color: rgb(150, 148, 148);
 }
 
 /*Phones(640px and up)*/
@@ -171,11 +181,7 @@
     .info-cards {
         display: flex;
     }
-    .order-container {
-        display: grid;
-        gap: 1em;
-        padding: 5% 5%;
-    }
+
     
 }
 
@@ -187,10 +193,7 @@
     .info-cards {
         display: flex;
     }
-    .order-container {
-        padding: 5% 5%;
-        grid-template-columns: repeat(3, 1fr) ;
-    }
+
     
 }
 
@@ -202,8 +205,5 @@
     .info-cards {
         display: flex;
     }
-    .order-container {
-        padding: 5% 5%;
-        grid-template-columns: repeat(3, 1fr) ;
-    }
+
 }
