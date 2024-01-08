@@ -121,24 +121,48 @@
 .project-section {
     background-color: rgb(220, 220, 220);
     color: rgb(63, 63, 63);
+
+}
+.project-container {
     padding: 5% 10%;
     display: flex;
     justify-content: space-between;
 }
 
 .project-description {
-    width: 40%;
+    width: 50%;
+    font-size: 1.1em;
+    padding-right: 2em;
 }
 
-.project-container {
+.project-card-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 0.3em;
-    width: 60%;
+    gap: 0.25em;
+    width: 50%;
 }
 
-.project-description > h2 {
+.project-description > span {
     font-size: 3.9em;
+    font-weight: 500;
+    
+}
+
+.project-description > p {
+    text-align: justify;
+}
+
+.order-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    padding: 5% 15%;
+    background-color:rgb(0, 38, 70);
+}
+
+.order {
+    background-color: rgb(62, 150, 221);
+    color: aliceblue;
 }
 
 
@@ -150,17 +174,27 @@
 
 .project-img {
     width: 100%;
-    height: 15em; 
+    height: 13em; 
     object-fit: cover;
 }
 
-.order-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2em;
-    padding: 5% 15%;
-    background-color: rgb(150, 148, 148);
+
+.big-numbers {
+    font-size: 5rem;
+    font-weight: 500;
 }
+
+
+.home-experience {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10% 5% 10%;
+}
+.home-experience div {
+    display: flex;
+    flex-direction: column;
+}
+  
 
 /*Phones(640px and up)*/
 @media (min-width: 40em) {
