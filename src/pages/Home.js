@@ -135,8 +135,16 @@ function Home() {
               <h3>Pick-up / Deliver</h3>
               <p>Comprehensive roof inspections to identify potential issues early. Our detailed assessments help maintain the integrity of your roof and prevent future problems.</p>
             </div>
-            
           </div>
+            <div>
+            </div>
+
+        </section>
+        <section className='notice'>
+        <div class="same-day-pickup">
+          <p class="animated-text">SAME DAY PICK-UP | CALL (123) 456-7890</p>
+        </div>
+
         </section>
       </main>
     );

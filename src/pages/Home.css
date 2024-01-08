@@ -160,17 +160,19 @@
     background-color:rgb(0, 38, 70);
 }
 
-.order {
-    background-color: rgb(62, 150, 221);
-    color: aliceblue;
-}
-
 
 .order-card {
     color:black;
     padding: 10%;
     background-color: aliceblue;
+    text-align: justify;
 }
+
+.order {
+    background-color: rgb(62, 150, 221);
+    color: aliceblue;
+}
+
 
 .project-img {
     width: 100%;
@@ -194,6 +196,34 @@
     display: flex;
     flex-direction: column;
 }
+  
+.same-day-pickup {
+    /* Set background or styles for the section */
+    /* For example: */
+    font-size: 2rem;
+    color: aliceblue;
+    background-color: #222222;
+    padding: 20px;
+    overflow: hidden; /* Hide overflow to clip the text outside the container */
+  }
+  
+  .animated-text {
+    /* Set initial position and properties */
+    white-space: nowrap;
+    position: relative;
+    animation: slideText 15s linear infinite;
+    /* Optional: Adjust font size, color, etc., according to your design */
+  }
+  
+  @keyframes slideText {
+    0% {
+      left: -100%; /* Initially off-screen towards the left */
+    }
+    100% {
+      left: 100%; /* Fully visible at the end of animation towards the right */
+    }
+  }
+  
   
 
 /*Phones(640px and up)*/
