@@ -28,7 +28,7 @@ function Products() {
 
           </div>
           <div class="same-day-pickup">
-              <p class="animated-text">SAME DAY PICK-UP • CALL (123) 456-7890</p>
+              <span class="animated-text">SAME DAY PICK-UP • CALL (123) 456-7890</span>
             </div>
        </section>
 
