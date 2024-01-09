@@ -106,6 +106,83 @@ const About = () => {
           <p>To apply for a job opening, email us on hrd.roofify.example.com</p>
         </div>
       </section>
+
+      <section className="roofify-faqs">
+      <h2>Frequently Asked Questions</h2>
+
+      <div className="faq-item">
+        <h3>What roofing services do you offer?</h3>
+        <p>
+          At Roofify, we provide comprehensive roofing services including repair, replacement, installation of various materials (such as asphalt shingles, metal, tile, or slate), and routine maintenance to ensure your roof's durability and longevity.
+        </p>
+      </div>
+
+      <div className="faq-item">
+        <h3>How do I know if my roof needs repair or replacement?</h3>
+        <p>
+          Signs like visible leaks, missing or damaged shingles, the age of the roof (typically over 20 years for most materials), and other indicators of structural issues or wear and tear may suggest the need for repair or replacement. We recommend scheduling an inspection for a more accurate assessment.
+        </p>
+      </div>
+
+      <div className="faq-item">
+        <h3>What types of roofing materials do you work with?</h3>
+        <p>
+          We work with various materials including asphalt shingles, metal, tile, and slate. Each material has its own set of advantages and disadvantages. For instance, asphalt shingles are cost-effective, while metal roofs offer durability. We can discuss the best option based on your preferences and budget.
+        </p>
+      </div>
+
+      <div className="faq-item">
+        <h3>How long does a roofing project usually take?</h3>
+        <p>
+          The timeline for a roofing project can vary depending on its scope and size. On average, a standard residential project might take anywhere from a few days to a couple of weeks. Factors like weather conditions and the complexity of the project can also influence the duration.
+        </p>
+      </div>
+
+      <div className="faq-item">
+        <h3>Do you offer warranties or guarantees on your roofing services?</h3>
+        <p>
+          Yes, we offer warranties on both workmanship and materials used. Our warranties are designed to ensure customer satisfaction and the quality of our services.
+        </p>
+      </div>
+
+      <div className="faq-item">
+        <h3>Can you help with insurance claims related to roofing repairs or replacements?</h3>
+        <p>
+          Absolutely! We assist in the insurance claim process for damages covered by insurance. Our team can guide you through the necessary steps to streamline the claims process.
+        </p>
+      </div>
+
+      <div className="faq-item">
+        <h3>What factors influence the cost of a roofing project?</h3>
+        <p>
+          Several factors influence the cost, including the materials chosen, roof size, complexity of the project, labor, additional features, and any necessary repairs. We can provide a detailed estimate after assessing your specific requirements.
+        </p>
+      </div>
+
+      <div className="faq-item">
+        <h3>How should I maintain my roof after installation or repair?</h3>
+        <p>
+          Regular maintenance is key to prolonging your roof's lifespan. This includes periodic inspections, keeping gutters clean, addressing any damage promptly, and following any specific care instructions we provide after the installation or repair.
+        </p>
+      </div>
+
+      <div className="faq-item">
+        <h3>Are your roofing contractors licensed and insured?</h3>
+        <p>
+          Yes, all our roofing contractors are fully licensed and insured. Rest assured, you are working with a professional and legally compliant team dedicated to delivering quality service.
+        </p>
+      </div>
+
+      <div className="faq-item">
+        <h3>Can I get a free estimate for my roofing project?</h3>
+        <p>
+          Absolutely! You can request a free estimate by contacting us via phone or filling out the inquiry form on our website. We'll assess your specific needs and provide an estimate tailored to your project.
+        </p>
+      </div>
+
+    </section>
+
+
     </main>
 
   );
