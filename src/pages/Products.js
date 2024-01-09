@@ -6,8 +6,35 @@ function Products() {
 
     return (
       <section className="products-section">
-        <img className="featured-product-img" src="https://i.imgur.com/xM9qKxk.jpg" alt="featured-roof" />
+        {/* <img className="featured-product-img" src="https://i.imgur.com/xM9qKxk.jpg" alt="featured-roof" /> */}
+        
+        <section className='order-section'>
+          <div  className='order-container'>
+            <div className='order-card'>
+              <img src="https://i.imgur.com/zTB5Ld9.png" alt="" className='services-icon'/>
+              <h3>Free Consultation</h3>
+              <p>Expert installations tailored to your needs. We use high-quality materials and ensure precision in every project to provide durable and beautiful roofs.</p>
+            </div>
+            <div className='order-card order'>
+              <img src="https://i.imgur.com/Ve7l9P0.png" alt="" className='services-icon'/>
+              <h3>Order</h3>
+              <p>Expert Roofing Services Tailored to Your Needs</p>
+            </div>
+            <div className='order-card'>
+              <img src="https://i.imgur.com/Wa42UeK.png" alt="" className='services-icon'/>
+              <h3>Pick-up / Deliver</h3>
+              <p>Comprehensive roof inspections to identify potential issues early. Our detailed assessments help maintain the integrity of your roof and prevent future problems.</p>
+            </div>
+
+          </div>
+          <div class="same-day-pickup">
+              <p class="animated-text">SAME DAY PICK-UP • CALL (123) 456-7890</p>
+            </div>
+       </section>
+
         <div className="product-container">
+
+        
           
         <div className='product-card'>
             <div className='product-specs'>

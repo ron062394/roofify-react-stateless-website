@@ -6,9 +6,34 @@ const About = () => {
 
   return (
     <main>
+
+
+      
       <section className='about-us banner'>
         <p className='tag-line'>Building Strong Foundations, One Roof at a Time</p>
       </section>
+
+      
+      <section className='home-services'>
+          <div className='card-services our-services-container'>
+            <h2 className='our-services-title'>Our Roofing Solutions</h2>
+          </div>
+          <div className='card-services'>
+            <h3>Professional Installations</h3>
+            <p>Expert installations tailored to your needs.</p>
+          </div>
+          <div className='card-services'>
+            <h3>Swift Roofing Repairs</h3>
+            <p>Expert Roofing Services Tailored to Your Needs</p>
+          </div>
+          <div className='card-services'>
+            <h3>Roofing Inspections</h3>
+            <p>Comprehensive roof inspections to identify potential issues early.</p>
+          </div>
+        </section>
+
+
+        
       <section className="about-section">
         <img className='story-img' src="https://skylightroofing.com/wp-content/uploads/2021/07/commercial-roofing-1024x683.jpg" alt="" />
         <div className='the-journey'>
@@ -22,6 +47,9 @@ const About = () => {
           <p>Our vision at Roofify is to set the standard in the roofing industry as the epitome of reliability, innovation, and customer-centric service. We aim to revolutionize roofing practices by integrating cutting-edge technology, sustainable solutions, and expert craftsmanship. We envision a future where every homeowner has access to resilient roofs that not only protect their homes but also reflect our dedication to quality and integrity. Through our continuous commitment to excellence, we aspire to be the cornerstone of trust and reliability in the roofing landscape.</p>
         </div>
       </section>
+
+
+
       <section className='job-openings-section'>
         <h1>Job Opportunities</h1>
         <h2>Current Job Openings</h2>
