@@ -1,0 +1,43 @@
+.contact-section {
+    background-color: aliceblue;
+}
+
+.contact-section-banner {
+  background-image: url('https://c0.wallpaperflare.com/preview/518/694/455/roof-roofing-tiles-tile-housetop.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
+
+.get-in-touch {
+    color: aliceblue;
+    z-index: 1;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    
+}
+
+.contact-black-shade {
+    background-color: #000000;
+    position: absolute;
+    height: 60vh;
+    width: 100%;
+    opacity: 95%;
+    z-index: 1;
+}
+
+.get-in-touch h2 {
+    font-size: 5rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.get-in-touch span {
+    font-size: 1.25rem;
+    margin: 0 20%;
+    text-align: center;
+}
