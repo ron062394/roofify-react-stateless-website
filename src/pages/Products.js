@@ -2,13 +2,14 @@ import './Products.css'
 import React from 'react';
 
 function Products() {
-
-
     return (
+      
       <section className="products-section">
-        {/* <img className="featured-product-img" src="https://i.imgur.com/xM9qKxk.jpg" alt="featured-roof" /> */}
-        
+
         <section className='order-section'>
+          <div className='black-shade'>
+          </div>
+
           <div  className='order-container'>
             <div className='order-card'>
               <img src="https://i.imgur.com/zTB5Ld9.png" alt="" className='services-icon'/>
@@ -27,9 +28,7 @@ function Products() {
             </div>
 
           </div>
-          <div class="same-day-pickup">
-              <span class="animated-text">SAME DAY PICK-UP • CALL (123) 456-7890</span>
-            </div>
+
        </section>
 
         <div className="product-container">

@@ -1,6 +1,47 @@
+.same-day-pickup {
+  font-size: 4rem;
+  color: rgb(236, 236, 236);
+  text-align: center;
+  background-color: #000000;
+  position: relative;
+  z-index: 1;
+
+}
+
+.order-section {
+  background-image: url('https://c0.wallpaperflare.com/preview/518/694/455/roof-roofing-tiles-tile-housetop.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
+
+.order-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: relative;
+  padding: 10% 15% 3% 15%;
+  z-index: 1;
+}
+
+
+.order-card {
+  color:black;
+  padding: 10%;
+  background-color: aliceblue;
+  text-align: justify;
+}
+
+.order {
+  background-color: rgb(62, 150, 221);
+  color: aliceblue;
+}
+
+
+
 .products-section {
     color: aliceblue;
     background-color: #191928;
+    
 }
 
 .product-container {

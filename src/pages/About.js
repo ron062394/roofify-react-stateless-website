@@ -6,9 +6,6 @@ const About = () => {
 
   return (
     <main>
-
-
-      
       <section className='about-us banner'>
         <p className='tag-line'>Building Strong Foundations, One Roof at a Time</p>
       </section>
