@@ -101,6 +101,10 @@ function Home() {
               </div>
             ))}
           </Carousel>
+          <div className='carousel-description'>
+            <span>Elevate Your Roofing Experience</span>
+            <p>Explore our range of premium roofing materials </p>
+          </div>
         </section>
 
 
