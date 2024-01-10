@@ -10,9 +10,29 @@ function Contact() {
           <div className='get-in-touch'>
             <h2>GET IN TOUCH WITH US</h2>
             <span>Embark on a journey of superior roofing solutions with Roofify. As a leading steel roofing manufacturer, we take pride in delivering unparalleled quality and durability. </span>
+
+            <div className='contact-us-cards'>
+              <div>
+                <span>Visit us</span>
+                <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+                <span>123 Main Street, City, State, ZIP</span>
+              </div>
+              <div>
+                <span>Call us</span>
+                <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+                <span> (123) 456-78909</span>
+              </div>
+              <div>
+                <span>Call us</span>
+                <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+                <span> (123) 456-78909</span>
+              </div>
+            </div>
+
+
+
           </div>
         </div>
-       <h1>Contact Us / Get a Quote</h1>
 
         <div class="contact-info">
           <h2>Main Office</h2>

@@ -18,7 +18,6 @@
     align-items: center;
     height: 100%;
     flex-direction: column;
-    
 }
 
 .contact-black-shade {
@@ -33,11 +32,16 @@
 .get-in-touch h2 {
     font-size: 5rem;
     font-weight: 400;
-    margin: 0;
+    margin: 0
 }
 
 .get-in-touch span {
     font-size: 1.25rem;
-    margin: 0 20%;
     text-align: center;
+}
+
+
+.contact-us-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
