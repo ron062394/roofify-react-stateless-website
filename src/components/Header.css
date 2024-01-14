@@ -42,10 +42,11 @@ header li {
   border-bottom: 2px solid transparent;
 }
 
-li:hover {
+.nav-links li:hover {
   transition: 0.2s;
   border-bottom: 2px solid rgb(160, 208, 246);
 }
+
 
 a {
   text-decoration: none;
