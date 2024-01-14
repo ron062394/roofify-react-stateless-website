@@ -14,10 +14,10 @@
     z-index: 1;
     position:relative;
     display: flex;
-    justify-content: center;
     align-items: center;
     height: 100%;
     flex-direction: column;
+    justify-content:space-around;
 }
 
 .contact-black-shade {
@@ -32,7 +32,9 @@
 .get-in-touch h2 {
     font-size: 5rem;
     font-weight: 400;
-    margin: 0
+    margin: 0;
+    padding-top: 15vh;
+    text-align: center;
 }
 
 .get-in-touch span {
@@ -41,7 +43,18 @@
 }
 
 
-.contact-us-cards {
+.contact-us-cards-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.contact-us-cards {
+    background-color: rgb(0, 35, 66);
+    padding: 1rem;
+    text-align: center;
+}
+
+.contact-icon {
+    height: 4rem;
 }

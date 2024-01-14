@@ -8,29 +8,28 @@ function Contact() {
           <div className='contact-black-shade'>
           </div>
           <div className='get-in-touch'>
-            <h2>GET IN TOUCH WITH US</h2>
-            <span>Embark on a journey of superior roofing solutions with Roofify. As a leading steel roofing manufacturer, we take pride in delivering unparalleled quality and durability. </span>
-
-            <div className='contact-us-cards'>
-              <div>
-                <span>Visit us</span>
-                <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
-                <span>123 Main Street, City, State, ZIP</span>
-              </div>
-              <div>
-                <span>Call us</span>
-                <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
-                <span> (123) 456-78909</span>
-              </div>
-              <div>
-                <span>Call us</span>
-                <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
-                <span> (123) 456-78909</span>
-              </div>
+            <div>
+              <h2>GET IN TOUCH WITH US</h2>
+              <span>Embark on a journey of superior roofing solutions with Roofify. As a leading steel roofing manufacturer, we take pride in delivering unparalleled quality and durability. </span>
             </div>
 
-
-
+            <div className='contact-us-cards-container'>
+              <div className='contact-us-cards'>
+                <img className='contact-icon' src="https://cdn-icons-png.flaticon.com/512/6395/6395240.png" alt="" />
+                <div>Visit us</div>
+                <div>123 Main Street, City, State, ZIP</div>
+              </div>
+              <div className='contact-us-cards'>
+                <img className='contact-icon' src="https://icon-library.com/images/phone-call-icon-png/phone-call-icon-png-10.jpg" alt="" />
+                <div>Call us</div>
+                <div> (123) 456-78900</div>
+              </div>
+              <div className='contact-us-cards'>
+                <img className='contact-icon' src="https://cdn-icons-png.flaticon.com/512/6395/6395240.png" alt="" />
+                <div>Email us</div>
+                <div> Email: sales@roofingcompany.com</div>
+              </div>
+            </div>
           </div>
         </div>
 
