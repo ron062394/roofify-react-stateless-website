@@ -58,3 +58,11 @@
 .contact-icon {
     height: 4rem;
 }
+
+.satellite-offices, .contact-info {
+    padding: 1% 5%;
+}
+
+.satellite-offices div {
+    padding-bottom: 0.5rem;
+}
