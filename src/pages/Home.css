@@ -240,6 +240,40 @@
     padding: 10%;
 
 }
+
+.testimonial-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #555;
+}
+
+.testimonial-card {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.testimonial-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonial-author {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.testimonial-text {
+    color: #555;
+    font-style: italic;
+}
   
 
 /*Phones(640px and up)*/
