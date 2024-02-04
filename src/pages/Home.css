@@ -221,6 +221,15 @@
 }
   
 
+.video-section {
+    background-color: #f3f3f3;
+    height: 55vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    align-items: center;
+}
+
   
   
 

@@ -107,9 +107,13 @@ function Home() {
           </div>
         </section>
 
-        <section className='home-video'> 
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/tHzn-swckGc" frameborder="0" allowfullscreen></iframe>
+        <section className='video-section'> 
 
+          <div>
+            <h2>Explore the heart of our roofing business with this exclusive sneak peek into the Roofify project!</h2>
+            <p>At Roofify, we invite you on a captivating journey into the very essence of our roofing enterprise. This sneak peek offers a rare glimpse behind the scenes, allowing you to discover the intricate details that set Roofify apart in the competitive roofing industry.</p>
+          </div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/tHzn-swckGc" frameborder="0" allowfullscreen></iframe>
         </section>
 
 
