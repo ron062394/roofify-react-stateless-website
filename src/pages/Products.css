@@ -232,3 +232,9 @@
 .thickness {
   margin: 0.2em;
 }
+
+
+.home-video {
+  background-color: aliceblue;
+  height: 60vh;
+}

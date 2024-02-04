@@ -107,6 +107,11 @@ function Home() {
           </div>
         </section>
 
+        <section className='home-video'> 
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/tHzn-swckGc" frameborder="0" allowfullscreen></iframe>
+
+        </section>
+
 
       </main>
     );
