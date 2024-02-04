@@ -108,12 +108,20 @@ function Home() {
         </section>
 
         <section className='video-section'> 
+          <span>Roofify Unveiled: A Pioneering Roofing Experience</span>
+          <span>We have undertaken a mission to transform the conventional perception of roofing services by infusing a perfect blend of innovation and reliability into every aspect of our operations.</span>
+          <div  className='video-section-container'>
+            <div className='video-text-container'>
+              <h2>Explore the heart of our roofing business with this exclusive sneak peek into the Roofify project!</h2>
+              <p>At Roofify, we invite you on a captivating journey into the very essence of our roofing enterprise. This sneak peek offers a rare glimpse behind the scenes, allowing you to discover the intricate details that set Roofify apart in the competitive roofing industry.</p>
+              <h2>Innovation Unleashed</h2>
+              <h2>Reliability at the Core</h2>
+            </div>
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/tHzn-swckGc" frameborder="0" allowfullscreen></iframe>
 
-          <div>
-            <h2>Explore the heart of our roofing business with this exclusive sneak peek into the Roofify project!</h2>
-            <p>At Roofify, we invite you on a captivating journey into the very essence of our roofing enterprise. This sneak peek offers a rare glimpse behind the scenes, allowing you to discover the intricate details that set Roofify apart in the competitive roofing industry.</p>
           </div>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/tHzn-swckGc" frameborder="0" allowfullscreen></iframe>
+
+
         </section>
 
 
