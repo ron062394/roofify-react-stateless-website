@@ -124,18 +124,29 @@ function Home() {
 
         <section className='testimonial-section'>
           <h2>Client Testimonials</h2>
-
+        
+        <div className='testimonial-container'>
           <div class="testimonial-card">
-              <img src="avatar1.jpg" alt="Client Avatar" class="testimonial-avatar"/>
-              <p class="testimonial-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-              <p class="testimonial-author">Dorothy Smith</p>
-          </div>
+                <img src="avatar1.jpg" alt="Client Avatar" class="testimonial-avatar"/>
+                <p class="testimonial-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+                <p class="testimonial-author">Dorothy Smith</p>
+            </div>
 
-          <div class="testimonial-card">
-              <img src="avatar2.jpg" alt="Client Avatar" class="testimonial-avatar"/>
-              <p class="testimonial-text">"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
-              <p class="testimonial-author">Claude Meek</p>
-          </div>
+            <div class="testimonial-card">
+                <img src="avatar2.jpg" alt="Client Avatar" class="testimonial-avatar"/>
+                <p class="testimonial-text">"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                <p class="testimonial-author">Claude Meek</p>
+            </div>
+
+            <div class="testimonial-card">
+                <img src="avatar2.jpg" alt="Client Avatar" class="testimonial-avatar"/>
+                <p class="testimonial-text">"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                <p class="testimonial-author">Sheldon Cooper</p>
+            </div>
+          
+        </div>
+
+
         </section>
 
 

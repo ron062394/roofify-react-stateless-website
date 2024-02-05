@@ -241,10 +241,10 @@
 
 }
 
-.testimonial-section {
+.testimonial-container {
     padding: 50px;
     text-align: center;
-    background-color: #555;
+    display: flex;
 }
 
 .testimonial-card {
